@@ -1,0 +1,23 @@
+> To execute 
+
+vhs v1.tape
+
+> Then you can publish 
+
+vhs publish <file>.gif
+
+> Published at 
+
+--- 
+ Share your GIF with Markdown:
+  ![Made with VHS](https://vhs.charm.sh/vhs-6Fvf6SFPtPCcFTMeqi1q1C.gif)
+                       
+  Or HTML (with badge):
+  <img src="https://vhs.charm.sh/vhs-6Fvf6SFPtPCcFTMeqi1q1C.gif" alt="Made with VHS">
+  <a href="https://vhs.charm.sh">
+    <img src="https://stuff.charm.sh/vhs/badge.svg">
+  </a>
+                
+  Or link to it:
+  https://vhs.charm.sh/vhs-6Fvf6SFPtPCcFTMeqi1q1C.gif
+---
