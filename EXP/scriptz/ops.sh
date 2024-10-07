@@ -20,7 +20,10 @@ s1() {
 # Adding dependencies to the script inline 
 # https://docs.astral.sh/uv/guides/scripts/#creating-a-python-script
 # This is being done without project
-s1() {
+s1s() {
     echo "$blue ---Adding lins to script ---$nc"
-
+    uv add \
+        --script $na \
+        'rich' 'requests'
 }
+s1s
