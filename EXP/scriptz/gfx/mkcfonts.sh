@@ -24,8 +24,9 @@ b2() {
     cfonts $t1 \
         -f 3d \
         | lolcrab \
-        -o $f1
+        > $f1
     
     echo -e "$mag Written to file $f1 $nc"
+    e $f1
 }
 b2
