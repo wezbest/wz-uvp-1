@@ -12,4 +12,13 @@ install(show_locals=True)
 
 
 def main() -> None:
-    print("Hello from p570350a!")
+    print("Hello from panty")
+    pantybanner()
+
+
+# Panty Functions here
+def pantybanner() -> None:
+    u1 = "https://snips.sh/f/3jS3Jr5pPs?r=1"
+    u2 = "https://snips.sh/f/3jS3Jr5pPs"
+    rez = rq.get(u1)
+    print(rez.text)

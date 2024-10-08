@@ -4,10 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "requests>=2.32.3",
+    "rich>=13.9.2",
+]
 
 [project.scripts]
 p570350a = "p570350a:main"
+p5panty = "p5panty:main"
 
 [build-system]
 requires = ["hatchling"]
