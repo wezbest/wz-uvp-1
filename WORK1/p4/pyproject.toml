@@ -1,0 +1,14 @@
+[project]
+name = "p470340a"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+p470340a = "p4:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
